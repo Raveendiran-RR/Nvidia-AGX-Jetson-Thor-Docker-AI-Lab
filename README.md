@@ -35,7 +35,11 @@ Welcome to the **ultimate guide** for unleashing the power of NVIDIA's AGX Jetso
 
 ## 🗺️ Repository Mind Map
 
-[🌐 View Interactive Mind Map](https://htmlpreview.github.io/?https://github.com/Raveendiran-RR/Nvidia-AGX-Jetson-Thor-Docker-AI-Lab/blob/main/Overview.html)
+Get a bird's eye view of everything this repository covers:
+
+**📊 Interactive Visualization Options:**
+- **[View Interactive HTML Mind Map](https://htmlpreview.github.io/?https://github.com/Raveendiran-RR/Nvidia-AGX-Jetson-Thor-Docker-AI-Lab/blob/main/Overview.html)** - Full interactive experience
+- **[Markmap Playground](https://markmap.js.org/repl)** - Copy the code below and visualize
 
 
 
