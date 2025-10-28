@@ -340,7 +340,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - 📧 **issue**: [Create an issue](../../issues/new)
-- 📺 **YouTube**: [Video Tutorials]([https://youtube.com/@JetsonAILab](https://www.youtube.com/@raveendiran_rr))
+- 📺 **YouTube**: [Video Tutorials]([https://youtube.com/@JetsonAILab](https://www.youtube.com/@raveendiran_rr)
 
 ---
 
