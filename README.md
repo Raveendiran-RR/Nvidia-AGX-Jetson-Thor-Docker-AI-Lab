@@ -33,6 +33,121 @@ Welcome to the **ultimate guide** for unleashing the power of NVIDIA's AGX Jetso
 
 ---
 
+## 🗺️ Repository Mind Map
+
+Get a bird's eye view of everything this repository covers:
+
+```mermaid
+mindmap
+  root((NVIDIA Jetson Thor<br/>Docker AI Lab))
+    Hardware Setup
+      Jetson Thor Specs
+        2000 TOPS Performance
+        Blackwell GPU
+        64GB Memory
+      Prerequisites
+        JetPack SDK 6.0+
+        NVMe SSD Storage
+        Cooling Solution
+      Power Management
+        25-75W TDP
+        Performance Modes
+    
+    Docker Infrastructure
+      Container Runtime
+        NVIDIA Container Runtime
+        GPU Acceleration
+        ARM64 Support
+      Orchestration
+        Docker Compose
+        Multi-Container Setup
+        Resource Management
+      Best Practices
+        Image Optimization
+        Layer Caching
+        Security Hardening
+    
+    AI Use Cases
+      Computer Vision
+        YOLOv8 Detection
+        60 FPS @ 1080p
+        WebRTC Streaming
+      LLM Inference
+        Llama 3.2
+        Mistral Models
+        50+ Tokens/sec
+      Home Automation
+        Voice Control
+        Smart Hub
+        <100ms Latency
+      Robotics
+        ROS2 Integration
+        SLAM Navigation
+        Autonomous Systems
+      Media Server
+        4K Transcoding
+        Content Analysis
+        AI Enhancement
+      RAG System
+        ChromaDB
+        Local Embeddings
+        1000+ Documents
+      Surveillance
+        8 Camera Support
+        Person Detection
+        Privacy-First
+    
+    Performance
+      Optimization
+        TensorRT
+        Model Pruning
+        Quantization
+      Benchmarks
+        FPS Metrics
+        Latency Tests
+        Power Consumption
+      Monitoring
+        Tegrastats
+        GPU Utilization
+        System Health
+    
+    Documentation
+      Setup Guides
+        Quick Start (30min)
+        Detailed Setup
+        Troubleshooting
+      Use Case Guides
+        Branch-specific Docs
+        Code Examples
+        Performance Tips
+      Advanced Topics
+        Custom Models
+        Multi-GPU Setup
+        Production Deploy
+    
+    Community
+      Contributing
+        Code Standards
+        PR Guidelines
+        Testing Requirements
+      Support
+        GitHub Issues
+        Discord Community
+        Video Tutorials
+      Resources
+        NVIDIA Docs
+        Learning Paths
+        Community Forums
+```
+
+**🎯 How to Navigate:**
+- **Getting Started?** → Follow the [Quick Start](#-quick-start-0-to-running-in-30-minutes) (30 minutes)
+- **Exploring Use Cases?** → Check out [AI Use Cases](#-use-cases) with dedicated branches
+- **Need Help?** → Visit [Troubleshooting](#-troubleshooting) section
+- **Want to Contribute?** → Read [Contributing](#-contributing) guidelines
+
+---
+
 ## 🖥️ Hardware Requirements
 
 ### NVIDIA AGX Jetson Thor Specifications
