@@ -1,0 +1,45 @@
+# YOLOv8 Configuration for Jetson Thor
+
+model:
+  name: yolov8n  # yolov8n, yolov8s, yolov8m, yolov8l, yolov8x
+  confidence: 0.25  # Detection confidence threshold (0-1)
+  iou: 0.45  # NMS IoU threshold
+  device: 0  # CUDA device (0 for first GPU)
+  half: true  # Use FP16 precision for faster inference
+
+video:
+  source: 0  # 0 for webcam, RTSP URL, or video file path
+  width: 1920
+  height: 1080
+  fps: 30
+  buffer_size: 3  # Frame buffer size
+
+display:
+  show_labels: true
+  show_confidence: true
+  line_thickness: 2
+  font_scale: 0.6
+  box_color: [0, 255, 0]  # Green (BGR)
+  text_color: [0, 0, 0]  # Black (BGR)
+
+api:
+  host: 0.0.0.0
+  port: 8080
+  cors_origins:
+    - "*"
+  workers: 1
+
+performance:
+  tensorrt: true
+  batch_size: 1
+  max_det: 300  # Maximum detections per image
+  
+output:
+  save_results: false
+  output_dir: /output
+  save_format: jpg  # jpg, png
+  save_txt: false  # Save detection results as text
+  
+logging:
+  level: INFO  # DEBUG, INFO, WARNING, ERROR
+  log_file: /var/log/jetson-cv.log
