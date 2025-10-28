@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  ros2:
+    image: ros:humble-perception
+    container_name: jetson-ros2
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - ROS_DOMAIN_ID=42
+      - ROS_LOCALHOST_ONLY=0
+    network_mode: host
+    volumes:
+      - ./workspace:/workspace
+      - /dev:/dev
+    devices:
+      - /dev/video0
+    privileged: true
+    command: bash -c "source /opt/ros/humble/setup.bash && ros2 launch nav2_bringup navigation_launch.py"
+    restart: unless-stopped
