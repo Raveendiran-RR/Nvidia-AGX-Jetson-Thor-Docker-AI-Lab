@@ -333,15 +333,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Docker** for containerization technology
 - **Open source AI community** for amazing models and tools
 - **Contributors** who make this project better every day
+- **Special Thanks** [Ajeet Raina] (https://github.com/ajeetraina)who encouraged me for this initiative
 
 ---
 
 ## 📞 Support
 
-- 📧 **Email**: [Create an issue](../../issues/new)
-- 💬 **Discord**: [Join our community](https://discord.gg/jetson-ai-lab)
-- 🐦 **Twitter**: [@JetsonAILab](https://twitter.com/JetsonAILab)
-- 📺 **YouTube**: [Video Tutorials](https://youtube.com/@JetsonAILab)
+- 📧 **issue**: [Create an issue](../../issues/new)
+- 📺 **YouTube**: [Video Tutorials]([https://youtube.com/@JetsonAILab](https://www.youtube.com/@raveendiran_rr))
 
 ---
 
