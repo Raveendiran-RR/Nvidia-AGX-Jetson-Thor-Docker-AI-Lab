@@ -333,7 +333,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Docker** for containerization technology
 - **Open source AI community** for amazing models and tools
 - **Contributors** who make this project better every day
-- **Special Thanks** [Ajeet Raina] (https://github.com/ajeetraina)who encouraged me for this initiative
+- **Special Thanks** [Ajeet Raina] ((https://github.com/ajeetraina)) who encouraged me for this initiative
 
 ---
 
